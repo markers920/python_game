@@ -10,3 +10,7 @@ rename the whl (wheel) file to a zip (note, "pip install xxx.whl" should work, b
 follow this kid's tutorial:
 https://www.youtube.com/watch?v=h7Q9h6dhUdY
 * dont need to double copy the headers, or copy the dist-info directory (or edit the WHEEL file)
+
+
+get this utility to generate windows executable files from python
+https://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/
