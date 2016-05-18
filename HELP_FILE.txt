@@ -1,0 +1,12 @@
+needed to install pygame
+for me, python 2.7 64-bit
+
+pygame-1.9.2a0-cp27-none-win_amd64.whl
+from
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame
+
+rename the whl (wheel) file to a zip (note, "pip install xxx.whl" should work, but it diudnt for me)
+
+follow this kid's tutorial:
+https://www.youtube.com/watch?v=h7Q9h6dhUdY
+* dont need to double copy the headers, or copy the dist-info directory (or edit the WHEEL file)
