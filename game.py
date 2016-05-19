@@ -98,7 +98,7 @@ def main():
 	tower_rectangle = tower_image.get_rect()
 	
 	#PROJECTILE
-	projectile_image = pygame.image.load('throwable/bomb.png')
+	projectile_image = pygame.image.load('throwable/bullet3.png')
 	projectile_w, projectile_h = projectile_image.get_size()
 	projectile_scale = 0.1
 	projectile_image = pygame.transform.scale(projectile_image, (int(projectile_w*projectile_scale), int(projectile_h*projectile_scale)))
