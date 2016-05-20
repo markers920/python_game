@@ -52,3 +52,5 @@ dist
 dist.zip
 *.pyc
 *.zip
+*.a_zip
+*.a-zip

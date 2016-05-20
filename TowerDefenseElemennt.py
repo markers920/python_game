@@ -1,4 +1,7 @@
 
+"""
+OLD CODE
+"""
 
 class TowerDefenseElemennt(object):
 	def __init__(self, speed, direction, image_list, rectangle, orig_position):

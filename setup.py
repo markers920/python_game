@@ -1,4 +1,4 @@
 from distutils.core import setup
 import py2exe
 
-setup(windows=['game.py'])
+setup(windows=['game2.py'])

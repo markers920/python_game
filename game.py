@@ -1,4 +1,8 @@
 
+"""
+OLD CODE
+"""
+
 import pygame
 from pygame import Color
 import sys
@@ -143,7 +147,7 @@ def main():
 		for tower in tower_list:
 			screen.blit(tower.get_image(), tower.get_rectangle())
 			if shoot_out:
-				tower_position = tower.get_position()
+				tower_position = tower.center_position()
 				mouse_position = pygame.mouse.get_pos()
 				direction = [mouse_position[0] - tower_position[0], mouse_position[1] - tower_position[1]]
 				mag = (direction[0]**2 + direction[1]**2)**0.5
